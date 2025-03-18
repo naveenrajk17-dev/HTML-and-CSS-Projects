@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <nav>
+      <div class="left">
+        <a href="/">Naveen Raj</a>
+      </div>
+      <div class="right">
+        <a href="http://github.com" target="_blank" rel="noopener noreferrer">
+          <i class="fa-brands fa-github"></i>
+          <span>Github</span>
+        </a>
+
+        <a href="http://linkedin.com" target="_blank" rel="noopener noreferrer">
+          <i class="fa-brands fa-linkedin"></i>
+          <span>Linkedin</span>
+        </a>
+
+        <a href="http://gmail.com" target="_blank" rel="noopener noreferrer">
+          <i class="fa-solid fa-envelope"></i>
+          <span>Gmail</span>
+        </a>
+      </div>
+    </nav>
+    <main>
+      <section class="hero">
+        <div class="text">
+          <h2>Hi, I'm Naveen 👋</h2>
+          <p>
+            A passionate and driven Computer Science Engineering student with a
+            strong interest in software development. Hands-on experience in Java
+            programming, web development, and IoT-based projects, gained through
+            internships and personal projects. The goal is to leverage technical
+            skills and creativity to build innovative solutions that solve
+            real-world problems. Continuously learning and growing, aiming to
+            contribute to dynamic and challenging environments in the tech
+            industry.
+          </p>
+          <div class="links">
+            <a href="#skills">
+              <i class="fa-solid fa-code"></i>
+              <span>Skills</span>
+            </a>
+
+            <a href="#testimony">
+              <i class="fa-solid fa-pen"></i>
+              <span>Testimony</span>
+            </a>
+
+            <a href="#contact">
+              <i class="fa-solid fa-envelope"></i>
+              <span>Contact</span>
+            </a>
+          </div>
+        </div>
+        <div class="headshot">
+          <img src="images/naveen-img2.jpg" alt="headshot" />
+        </div>
+      </section>
+      <section id="skills" class="skills-section">
+        <h2>Skills</h2>
+        <div class="text">
+          I completed a Java development internship at Phoenix Softech, where I
+          contributed to the development of an Electricity Billing application,
+          enhancing my proficiency in Java programming.
+        </div>
+        <div class="cells">
+          <div class="cell">
+            <img src="images/html-logo.webp" alt="html logo" />
+            <span>HTML</span>
+          </div>
+
+          <div class="cell">
+            <img src="images/css-logo.webp" alt="css logo" />
+            <span>CSS</span>
+          </div>
+
+          <div class="cell">
+            <img src="images/javascript-logo.webp" alt="lavascript logo" />
+            <span>JavaScript</span>
+          </div>
+
+          <div class="cell">
+            <img src="images/react-logo.webp" alt="react logo" />
+            <span>React</span>
+          </div>
+
+          <div class="cell">
+            <img src="images/node-logo.webp" alt="node logo" />
+            <span>Node.js</span>
+          </div>
+        </div>
+      </section>
+      <section id="Projects" class="Projects-section">
+        <h2>Projects</h2>
+        <div class="projects-grid">
+          <div class="project">
+            <img src="images/Hotel.png" alt="Hotel Management System" />
+            <h3>Hotel Management System</h3>
+            <p>
+              Developed a full-stack Hotel Management System using React for the
+              frontend and Node.js for the backend. The system allows hotel
+              staff to manage bookings, check-ins, and customer data
+              efficiently. Integrated a secure payment gateway for seamless
+              transactions and implemented role-based access control for
+              different user roles.
+            </p>
+          </div>
+
+          <div class="project">
+            <img src="images/airport.jpg" alt="Airport Management System" />
+            <h3>Airport Management System</h3>
+            <p>
+              Designed and implemented an Airport Management System to
+              streamline flight scheduling, passenger check-ins, and baggage
+              handling. The system was built using Java and MySQL, with a focus
+              on scalability and real-time data processing. It reduced manual
+              errors and improved operational efficiency by 30%.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section id="contact" class="contact-section">
+        <h2>Contact</h2>
+        <div class="group">
+          <div class="text">
+            <p>
+              I'm always open to discussing new projects, creative ideas, or
+              opportunities to be part of your team. Whether you have a question
+              or just want to say hi, feel free to reach out. I'll get back to
+              you as soon as possible!
+            </p>
+            <p>
+              <strong>Email:</strong> naveenrajk315@gmail.com<br />
+              <strong>Phone:</strong> +91 8668119310<br />
+              <strong>Location:</strong> Chennai, India
+            </p>
+          </div>
+          <form>
+            <label for="name">Name</label>
+            <input type="text" id="name" required />
+
+            <label for="email">Email</label>
+            <input type="email" id="email" required />
+
+            <label for="message">Message</label>
+            <textarea id="message" cols="30" rows="10" required></textarea>
+
+            <button type="submit">Send Message</button>
+          </form>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
